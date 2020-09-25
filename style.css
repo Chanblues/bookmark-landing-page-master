@@ -79,22 +79,15 @@ section p {
     text-align: center;
     border: 2px solid hsl(0, 94%, 66%);
     background-color: hsl(0, 94%, 66%);
+    color: white;
     font-weight: 700;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 #topnav button:hover {
     background-color: transparent;
-    font-weight: 700;
-}
-
-#topnav button a {
-    color: white;
-    margin-left: 0;
-}
-
-#topnav button:hover a {
     color: hsl(0, 94%, 66%);
+    font-weight: 700;
 }
 
 #topnav #menu_tab {
@@ -516,12 +509,6 @@ footer nav i:hover {
         margin-left: 0;
         background-color: transparent;
         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-    }
-
-    #topnav button a{
-        padding: 0;
-        margin-bottom: 0;
-        border-top: 0;
     }
 
     #topnav_link {
